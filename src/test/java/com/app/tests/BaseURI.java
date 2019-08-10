@@ -9,7 +9,7 @@ import org.junit.Test;
 public class BaseURI {
 
     @BeforeClass
-    public void setUpClass(){
+    public static void setUpClass(){
         //baseURI --> used to save the base url for all resources
         //when we actually make requests,
         // we only provide the path to specific resource
@@ -20,7 +20,7 @@ public class BaseURI {
     @Test
     public void culturesTest(){
 
-       Response response = RestAssured.get("/cultures/");
+       Response response = RestAssured.get("/book/cultures/");
        response.prettyPrint();
 
         Assert.assertTrue(response.asString().contains("Ironborn"));
@@ -30,7 +30,7 @@ public class BaseURI {
     @Test
     public void citiesTest() {
 
-        Response response = RestAssured.get("/cities/");
+        Response response = RestAssured.get("/map/cities/");
         response.prettyPrint();
 
         Assert.assertTrue(response.asString().contains("White Harbor"));

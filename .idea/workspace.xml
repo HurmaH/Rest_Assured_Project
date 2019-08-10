@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0e3be36-eb6b-49b6-be41-0c78ab5e9123" name="Default Changelist" comment="Rest Assured Demo 2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/app/tests/BaseURI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/app/tests/warmUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/app/tests/BaseURI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/app/tests/BaseURI.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,11 +65,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/BaseURI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="35" column="68" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
+            <state relative-caret-position="131">
+              <caret line="33" column="31" selection-start-line="32" selection-start-column="7" selection-end-line="33" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/warmUp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,6 +109,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/app/tests/HeadersTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/app/tests/StatusLine.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/app/tests/BaseURI.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/app/tests/warmUp.java" />
       </list>
     </option>
   </component>
@@ -106,8 +121,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1374" />
-    <option name="y" value="123" />
+    <option name="x" value="-1384" />
+    <option name="y" value="221" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -194,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BaseURI.citiesTest">
+  <component name="RunManager" selected="JUnit.warmUp.episodeTest">
     <configuration name="BaseURI.citiesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Rest_Assured_Project" />
       <extension name="coverage">
@@ -227,38 +242,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeadersTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Rest_Assured_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.app.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.app.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.app.tests.HeadersTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RestDemo.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Rest_Assured_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.app.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.app.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.app.tests.RestDemo" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StatusLine.statusLineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Rest_Assured_Project" />
       <extension name="coverage">
@@ -275,13 +258,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="warmUp.continentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Rest_Assured_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.app.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.app.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.app.tests.warmUp" />
+      <option name="METHOD_NAME" value="continentTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="warmUp.episodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Rest_Assured_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.app.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.app.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.app.tests.warmUp" />
+      <option name="METHOD_NAME" value="episodeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BaseURI.citiesTest" />
+        <item itemvalue="JUnit.warmUp.episodeTest" />
+        <item itemvalue="JUnit.warmUp.continentTest" />
         <item itemvalue="JUnit.BaseURI.culturesTest" />
+        <item itemvalue="JUnit.BaseURI.citiesTest" />
         <item itemvalue="JUnit.StatusLine.statusLineTest" />
-        <item itemvalue="JUnit.HeadersTest.test1" />
-        <item itemvalue="JUnit.RestDemo.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -307,35 +322,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RestDemo_test1 - 2019.08.10 at 13h 19m 14s.xml">
-      <configuration name="RestDemo.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RestDemo_test1 - 2019.08.10 at 13h 24m 06s.xml">
-      <configuration name="RestDemo.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RestDemo_test1 - 2019.08.10 at 13h 25m 45s.xml">
-      <configuration name="RestDemo.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RestDemo_test1 - 2019.08.10 at 13h 26m 50s.xml">
-      <configuration name="RestDemo.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HeadersTest_test1 - 2019.08.10 at 13h 30m 41s.xml">
-      <configuration name="HeadersTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HeadersTest_test1 - 2019.08.10 at 13h 33m 13s.xml">
-      <configuration name="HeadersTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StatusLine_statusLineTest - 2019.08.10 at 13h 52m 55s.xml">
-      <configuration name="StatusLine.statusLineTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BaseURI_culturesTest - 2019.08.10 at 14h 19m 50s.xml">
+    <history-entry file="BaseURI_culturesTest - 2019.08.10 at 15h 21m 45s.xml">
       <configuration name="BaseURI.culturesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BaseURI_culturesTest - 2019.08.10 at 14h 21m 03s.xml">
+    <history-entry file="BaseURI_culturesTest - 2019.08.10 at 15h 22m 51s.xml">
       <configuration name="BaseURI.culturesTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BaseURI_citiesTest - 2019.08.10 at 14h 23m 43s.xml">
-      <configuration name="BaseURI.citiesTest" configurationId="JUnit" />
+    <history-entry file="BaseURI_culturesTest - 2019.08.10 at 15h 24m 15s.xml">
+      <configuration name="BaseURI.culturesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="warmUp_continentTest - 2019.08.10 at 15h 30m 21s.xml">
+      <configuration name="warmUp.continentTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="warmUp_continentTest - 2019.08.10 at 15h 32m 17s.xml">
+      <configuration name="warmUp.continentTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="warmUp_continentTest - 2019.08.10 at 15h 32m 18s.xml">
+      <configuration name="warmUp.continentTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="warmUp_continentTest - 2019.08.10 at 15h 34m 31s.xml">
+      <configuration name="warmUp.continentTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="warmUp_continentTest - 2019.08.10 at 15h 35m 18s.xml">
+      <configuration name="warmUp.continentTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="warmUp_episodeTest - 2019.08.10 at 15h 37m 34s.xml">
+      <configuration name="warmUp.episodeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="warmUp_episodeTest - 2019.08.10 at 15h 38m 12s.xml">
+      <configuration name="warmUp.episodeTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -414,8 +429,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/BaseURI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="35" column="68" selection-start-line="35" selection-start-column="68" selection-end-line="35" selection-end-column="68" />
+        <state relative-caret-position="131">
+          <caret line="33" column="31" selection-start-line="32" selection-start-column="7" selection-end-line="33" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/warmUp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
