@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0e3be36-eb6b-49b6-be41-0c78ab5e9123" name="Default Changelist" comment="Rest Assured Demo 2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/app/tests/ParamState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e0e3be36-eb6b-49b6-be41-0c78ab5e9123" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/app/tests/ParamState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/app/tests/ParamState.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -91,8 +90,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/ParamState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="25" column="94" selection-start-line="25" selection-start-column="94" selection-end-line="25" selection-end-column="94" />
+            <state relative-caret-position="203">
+              <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -222,8 +221,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ParamState.getCityByNameTest">
-    <configuration name="BaseURI.citiesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ParamState.getCharacterById">
+    <configuration name="ParamState.getCharacterById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Rest_Assured_Project" />
       <extension name="coverage">
         <pattern>
@@ -232,14 +231,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.app.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.app.tests.BaseURI" />
-      <option name="METHOD_NAME" value="citiesTest" />
+      <option name="MAIN_CLASS_NAME" value="com.app.tests.ParamState" />
+      <option name="METHOD_NAME" value="getCharacterById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BaseURI.culturesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParamState.getCharacterByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Rest_Assured_Project" />
       <extension name="coverage">
         <pattern>
@@ -248,8 +247,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.app.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.app.tests.BaseURI" />
-      <option name="METHOD_NAME" value="culturesTest" />
+      <option name="MAIN_CLASS_NAME" value="com.app.tests.ParamState" />
+      <option name="METHOD_NAME" value="getCharacterByName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -305,11 +304,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParamState.getCharacterById" />
+        <item itemvalue="JUnit.ParamState.getCharacterByName" />
         <item itemvalue="JUnit.ParamState.getCityByNameTest" />
         <item itemvalue="JUnit.warmUp.episodeTest" />
         <item itemvalue="JUnit.warmUp.continentTest" />
-        <item itemvalue="JUnit.BaseURI.culturesTest" />
-        <item itemvalue="JUnit.BaseURI.citiesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -331,43 +330,51 @@
       <option name="project" value="LOCAL" />
       <updated>1565464159219</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Statements">
+      <created>1565514396868</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565514396868</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="warmUp_continentTest - 2019.08.10 at 15h 32m 17s.xml">
-      <configuration name="warmUp.continentTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="warmUp_continentTest - 2019.08.10 at 15h 32m 18s.xml">
-      <configuration name="warmUp.continentTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="warmUp_continentTest - 2019.08.10 at 15h 34m 31s.xml">
-      <configuration name="warmUp.continentTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="warmUp_continentTest - 2019.08.10 at 15h 35m 18s.xml">
-      <configuration name="warmUp.continentTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="warmUp_episodeTest - 2019.08.10 at 15h 37m 34s.xml">
-      <configuration name="warmUp.episodeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="warmUp_episodeTest - 2019.08.10 at 15h 38m 12s.xml">
-      <configuration name="warmUp.episodeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="warmUp_episodeTest - 2019.08.10 at 15h 38m 47s.xml">
-      <configuration name="warmUp.episodeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="warmUp_episodeTest - 2019.08.10 at 15h 40m 12s.xml">
-      <configuration name="warmUp.episodeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParamState_getCityByNameTest - 2019.08.11 at 03h 54m 26s.xml">
+    <history-entry file="ParamState_getCityByNameTest - 2019.08.11 at 04h 10m 46s.xml">
       <configuration name="ParamState.getCityByNameTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ParamState_getCityByNameTest - 2019.08.11 at 03h 58m 00s.xml">
+    <history-entry file="ParamState_getCharacterById - 2019.08.11 at 04h 13m 52s.xml">
+      <configuration name="ParamState.getCharacterById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParamState_getCharacterByName - 2019.08.11 at 04h 14m 42s.xml">
+      <configuration name="ParamState.getCharacterByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParamState_getCharacterByName - 2019.08.11 at 04h 15m 15s.xml">
+      <configuration name="ParamState.getCharacterByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParamState_getCityByNameTest - 2019.08.11 at 04h 19m 58s.xml">
       <configuration name="ParamState.getCityByNameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParamState_getCityByNameTest - 2019.08.11 at 04h 20m 39s.xml">
+      <configuration name="ParamState.getCityByNameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParamState_getCharacterByName - 2019.08.11 at 04h 21m 53s.xml">
+      <configuration name="ParamState.getCharacterByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParamState_getCharacterByName - 2019.08.11 at 04h 24m 33s.xml">
+      <configuration name="ParamState.getCharacterByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParamState_getCharacterByName - 2019.08.11 at 04h 24m 55s.xml">
+      <configuration name="ParamState.getCharacterByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParamState_getCharacterByName - 2019.08.11 at 04h 26m 10s.xml">
+      <configuration name="ParamState.getCharacterByName" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="123" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -377,12 +384,12 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.45171848" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45171848" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -399,7 +406,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rest Assured Demo 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rest Assured Demo 2" />
+    <MESSAGE value="Statements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Statements" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -461,8 +469,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/ParamState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="25" column="94" selection-start-line="25" selection-start-column="94" selection-end-line="25" selection-end-column="94" />
+        <state relative-caret-position="203">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
