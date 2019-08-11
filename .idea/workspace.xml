@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0e3be36-eb6b-49b6-be41-0c78ab5e9123" name="Default Changelist" comment="Rest Assured Demo 2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/app/tests/warmUp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/app/tests/ParamState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/app/tests/BaseURI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/app/tests/BaseURI.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -77,11 +76,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/warmUp.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/BaseURI2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+            <state relative-caret-position="257">
+              <caret line="19" column="25" selection-start-line="10" selection-start-column="4" selection-end-line="20" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/ParamState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="25" column="94" selection-start-line="25" selection-start-column="94" selection-end-line="25" selection-end-column="94" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,6 +121,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/app/tests/StatusLine.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/app/tests/BaseURI.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/app/tests/warmUp.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/app/tests/Parameters.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/app/tests/ParamState.java" />
       </list>
     </option>
   </component>
@@ -209,7 +222,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.warmUp.episodeTest">
+  <component name="RunManager" selected="JUnit.ParamState.getCityByNameTest">
     <configuration name="BaseURI.citiesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Rest_Assured_Project" />
       <extension name="coverage">
@@ -242,7 +255,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatusLine.statusLineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParamState.getCityByNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Rest_Assured_Project" />
       <extension name="coverage">
         <pattern>
@@ -251,8 +264,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.app.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.app.tests.StatusLine" />
-      <option name="METHOD_NAME" value="statusLineTest" />
+      <option name="MAIN_CLASS_NAME" value="com.app.tests.ParamState" />
+      <option name="METHOD_NAME" value="getCityByNameTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -292,11 +305,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParamState.getCityByNameTest" />
         <item itemvalue="JUnit.warmUp.episodeTest" />
         <item itemvalue="JUnit.warmUp.continentTest" />
         <item itemvalue="JUnit.BaseURI.culturesTest" />
         <item itemvalue="JUnit.BaseURI.citiesTest" />
-        <item itemvalue="JUnit.StatusLine.statusLineTest" />
       </list>
     </recent_temporary>
   </component>
@@ -322,18 +335,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BaseURI_culturesTest - 2019.08.10 at 15h 21m 45s.xml">
-      <configuration name="BaseURI.culturesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BaseURI_culturesTest - 2019.08.10 at 15h 22m 51s.xml">
-      <configuration name="BaseURI.culturesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BaseURI_culturesTest - 2019.08.10 at 15h 24m 15s.xml">
-      <configuration name="BaseURI.culturesTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="warmUp_continentTest - 2019.08.10 at 15h 30m 21s.xml">
-      <configuration name="warmUp.continentTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="warmUp_continentTest - 2019.08.10 at 15h 32m 17s.xml">
       <configuration name="warmUp.continentTest" configurationId="JUnit" />
     </history-entry>
@@ -352,10 +353,21 @@
     <history-entry file="warmUp_episodeTest - 2019.08.10 at 15h 38m 12s.xml">
       <configuration name="warmUp.episodeTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="warmUp_episodeTest - 2019.08.10 at 15h 38m 47s.xml">
+      <configuration name="warmUp.episodeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="warmUp_episodeTest - 2019.08.10 at 15h 40m 12s.xml">
+      <configuration name="warmUp.episodeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParamState_getCityByNameTest - 2019.08.11 at 03h 54m 26s.xml">
+      <configuration name="ParamState.getCityByNameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParamState_getCityByNameTest - 2019.08.11 at 03h 58m 00s.xml">
+      <configuration name="ParamState.getCityByNameTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="123" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -365,12 +377,12 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45171848" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45171848" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -397,6 +409,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/BaseURI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="33" column="31" selection-start-line="32" selection-start-column="7" selection-end-line="33" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/StatusLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="87" selection-start-line="14" selection-start-column="87" selection-end-line="14" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/RestDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -417,30 +449,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/StatusLine.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/BaseURI2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="87" selection-start-line="14" selection-start-column="87" selection-end-line="14" selection-end-column="87" />
+        <state relative-caret-position="257">
+          <caret line="19" column="25" selection-start-line="10" selection-start-column="4" selection-end-line="20" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/BaseURI.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/ParamState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="33" column="31" selection-start-line="32" selection-start-column="7" selection-end-line="33" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/warmUp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="31" />
+        <state relative-caret-position="189">
+          <caret line="25" column="94" selection-start-line="25" selection-start-column="94" selection-end-line="25" selection-end-column="94" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
