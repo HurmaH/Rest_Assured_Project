@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0e3be36-eb6b-49b6-be41-0c78ab5e9123" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/app/tests/GITHub.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -98,15 +99,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/QueryParam.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+            <state relative-caret-position="114">
+              <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#164#165#0" expanded="true" />
                 <element signature="e#203#204#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/GITHub.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#193#194#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,6 +152,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/app/tests/ParamState.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/app/tests/QuesryParam.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/app/tests/QueryParam.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/app/tests/GITHub.java" />
       </list>
     </option>
   </component>
@@ -236,8 +252,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QueryParam.amountAndRegionTest">
-    <configuration name="ParamState.getCharacterById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GITHub">
+    <configuration name="GITHub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Rest_Assured_Project" />
       <extension name="coverage">
         <pattern>
@@ -246,14 +262,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.app.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.app.tests.ParamState" />
-      <option name="METHOD_NAME" value="getCharacterById" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.app.tests.GITHub" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParamState.getCharacterByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GITHub.userTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Rest_Assured_Project" />
       <extension name="coverage">
         <pattern>
@@ -262,8 +277,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.app.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.app.tests.ParamState" />
-      <option name="METHOD_NAME" value="getCharacterByName" />
+      <option name="MAIN_CLASS_NAME" value="com.app.tests.GITHub" />
+      <option name="METHOD_NAME" value="userTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -319,11 +334,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GITHub" />
+        <item itemvalue="JUnit.GITHub.userTest" />
         <item itemvalue="JUnit.QueryParam.amountAndRegionTest" />
         <item itemvalue="JUnit.QueryParam.testRegion" />
         <item itemvalue="JUnit.QueryParam.testAmount" />
-        <item itemvalue="JUnit.ParamState.getCharacterById" />
-        <item itemvalue="JUnit.ParamState.getCharacterByName" />
       </list>
     </recent_temporary>
   </component>
@@ -356,12 +371,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ParamState_getCharacterByName - 2019.08.11 at 04h 24m 55s.xml">
-      <configuration name="ParamState.getCharacterByName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParamState_getCharacterByName - 2019.08.11 at 04h 26m 10s.xml">
-      <configuration name="ParamState.getCharacterByName" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ParamState_getCharacterByName - 2019.08.11 at 04h 28m 22s.xml">
       <configuration name="ParamState.getCharacterByName" configurationId="JUnit" />
     </history-entry>
@@ -386,9 +395,16 @@
     <history-entry file="QueryParam_amountAndRegionTest - 2019.08.11 at 22h 43m 34s.xml">
       <configuration name="QueryParam.amountAndRegionTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GITHub_userTest - 2019.08.12 at 08h 48m 46s.xml">
+      <configuration name="GITHub.userTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GITHub - 2019.08.12 at 08h 49m 18s.xml">
+      <configuration name="GITHub" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="123" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -493,12 +509,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/QueryParam.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+        <state relative-caret-position="114">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#164#165#0" expanded="true" />
             <element signature="e#203#204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/GITHub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
           </folding>
         </state>
       </provider>
