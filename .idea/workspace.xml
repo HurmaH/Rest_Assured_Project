@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0e3be36-eb6b-49b6-be41-0c78ab5e9123" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/app/tests/HamcrestMatchers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/app/tests/TestAssuredLogging.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,15 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/RestDemo.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -127,11 +118,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/HamcrestMatchers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="587">
+            <state relative-caret-position="383">
               <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/TestAssuredLogging.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="83" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -166,6 +169,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/app/tests/QueryParam.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/app/tests/GITHub.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/app/tests/HamcrestMatchers.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/app/tests/TestAssuredLogging.java" />
       </list>
     </option>
   </component>
@@ -265,7 +269,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HamcrestMatchers.test">
+  <component name="RunManager" selected="JUnit.TestAssuredLogging.logResponseTest">
     <configuration name="GITHub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Rest_Assured_Project" />
       <extension name="coverage">
@@ -313,7 +317,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueryParam.amountAndRegionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAssuredLogging.logResponseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Rest_Assured_Project" />
       <extension name="coverage">
         <pattern>
@@ -322,14 +326,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.app.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.app.tests.QueryParam" />
-      <option name="METHOD_NAME" value="amountAndRegionTest" />
+      <option name="MAIN_CLASS_NAME" value="com.app.tests.TestAssuredLogging" />
+      <option name="METHOD_NAME" value="logResponseTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueryParam.testRegion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAssuredLogging.loggingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Rest_Assured_Project" />
       <extension name="coverage">
         <pattern>
@@ -338,8 +342,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.app.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.app.tests.QueryParam" />
-      <option name="METHOD_NAME" value="testRegion" />
+      <option name="MAIN_CLASS_NAME" value="com.app.tests.TestAssuredLogging" />
+      <option name="METHOD_NAME" value="loggingTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -347,11 +351,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestAssuredLogging.logResponseTest" />
+        <item itemvalue="JUnit.TestAssuredLogging.loggingTest" />
         <item itemvalue="JUnit.HamcrestMatchers.test" />
         <item itemvalue="JUnit.GITHub" />
         <item itemvalue="JUnit.GITHub.userTest" />
-        <item itemvalue="JUnit.QueryParam.amountAndRegionTest" />
-        <item itemvalue="JUnit.QueryParam.testRegion" />
       </list>
     </recent_temporary>
   </component>
@@ -387,25 +391,17 @@
       <option name="project" value="LOCAL" />
       <updated>1565623524403</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Hamcrest">
+      <created>1565628711932</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565628711932</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HamcrestMatchers_test - 2019.08.12 at 10h 37m 15s.xml">
-      <configuration name="HamcrestMatchers.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HamcrestMatchers_test - 2019.08.12 at 10h 37m 32s.xml">
-      <configuration name="HamcrestMatchers.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HamcrestMatchers_test - 2019.08.12 at 10h 40m 07s.xml">
-      <configuration name="HamcrestMatchers.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HamcrestMatchers_test - 2019.08.12 at 10h 40m 30s.xml">
-      <configuration name="HamcrestMatchers.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HamcrestMatchers_test - 2019.08.12 at 10h 42m 31s.xml">
-      <configuration name="HamcrestMatchers.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HamcrestMatchers_test - 2019.08.12 at 11h 17m 48s.xml">
       <configuration name="HamcrestMatchers.test" configurationId="JUnit" />
     </history-entry>
@@ -421,6 +417,21 @@
     <history-entry file="HamcrestMatchers_test - 2019.08.12 at 11h 50m 24s.xml">
       <configuration name="HamcrestMatchers.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HamcrestMatchers_test - 2019.08.12 at 11h 50m 47s.xml">
+      <configuration name="HamcrestMatchers.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAssuredLogging_loggingTest - 2019.08.12 at 11h 58m 15s.xml">
+      <configuration name="TestAssuredLogging.loggingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAssuredLogging_loggingTest - 2019.08.12 at 11h 59m 02s.xml">
+      <configuration name="TestAssuredLogging.loggingTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAssuredLogging_logResponseTest - 2019.08.12 at 12h 01m 57s.xml">
+      <configuration name="TestAssuredLogging.logResponseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAssuredLogging_logResponseTest - 2019.08.12 at 12h 03m 34s.xml">
+      <configuration name="TestAssuredLogging.logResponseTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="123" width="1382" height="744" extended-state="6" />
@@ -435,7 +446,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45171848" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34860885" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -458,7 +469,8 @@
     <MESSAGE value="Rest Assured Demo 2" />
     <MESSAGE value="Statements" />
     <MESSAGE value="GitHub" />
-    <option name="LAST_COMMIT_MESSAGE" value="GitHub" />
+    <MESSAGE value="Hamcrest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hamcrest" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -554,8 +566,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/HamcrestMatchers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
+        <state relative-caret-position="383">
           <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/TestAssuredLogging.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="83" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
