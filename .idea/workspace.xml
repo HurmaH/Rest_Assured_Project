@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0e3be36-eb6b-49b6-be41-0c78ab5e9123" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/app/tests/TestAssuredLogging.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/app/tests/StatusCodeValidation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,18 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/RestDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="71" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/HeadersTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -130,13 +118,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/TestAssuredLogging.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
               <caret line="14" column="83" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/StatusCodeValidation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -170,6 +172,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/app/tests/GITHub.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/app/tests/HamcrestMatchers.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/app/tests/TestAssuredLogging.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/app/tests/StatusCodeValidation.java" />
       </list>
     </option>
   </component>
@@ -269,38 +272,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestAssuredLogging.logResponseTest">
-    <configuration name="GITHub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Rest_Assured_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.app.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.app.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.app.tests.GITHub" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GITHub.userTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Rest_Assured_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.app.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.app.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.app.tests.GITHub" />
-      <option name="METHOD_NAME" value="userTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.StatusCodeValidation.notFoundTest">
     <configuration name="HamcrestMatchers.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Rest_Assured_Project" />
       <extension name="coverage">
@@ -312,6 +284,38 @@
       <option name="PACKAGE_NAME" value="com.app.tests" />
       <option name="MAIN_CLASS_NAME" value="com.app.tests.HamcrestMatchers" />
       <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatusCodeValidation.notFoundTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Rest_Assured_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.app.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.app.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.app.tests.StatusCodeValidation" />
+      <option name="METHOD_NAME" value="notFoundTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatusCodeValidation.testOK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Rest_Assured_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.app.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.app.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.app.tests.StatusCodeValidation" />
+      <option name="METHOD_NAME" value="testOK" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -351,11 +355,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StatusCodeValidation.notFoundTest" />
+        <item itemvalue="JUnit.StatusCodeValidation.testOK" />
         <item itemvalue="JUnit.TestAssuredLogging.logResponseTest" />
         <item itemvalue="JUnit.TestAssuredLogging.loggingTest" />
         <item itemvalue="JUnit.HamcrestMatchers.test" />
-        <item itemvalue="JUnit.GITHub" />
-        <item itemvalue="JUnit.GITHub.userTest" />
       </list>
     </recent_temporary>
   </component>
@@ -398,13 +402,17 @@
       <option name="project" value="LOCAL" />
       <updated>1565628711932</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Logging">
+      <created>1565629527434</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1565629527434</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HamcrestMatchers_test - 2019.08.12 at 11h 17m 48s.xml">
-      <configuration name="HamcrestMatchers.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HamcrestMatchers_test - 2019.08.12 at 11h 46m 46s.xml">
       <configuration name="HamcrestMatchers.test" configurationId="JUnit" />
     </history-entry>
@@ -431,6 +439,9 @@
     </history-entry>
     <history-entry file="TestAssuredLogging_logResponseTest - 2019.08.12 at 12h 03m 34s.xml">
       <configuration name="TestAssuredLogging.logResponseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StatusCodeValidation_testOK - 2019.08.12 at 12h 08m 51s.xml">
+      <configuration name="StatusCodeValidation.testOK" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -470,7 +481,8 @@
     <MESSAGE value="Statements" />
     <MESSAGE value="GitHub" />
     <MESSAGE value="Hamcrest" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hamcrest" />
+    <MESSAGE value="Logging" />
+    <option name="LAST_COMMIT_MESSAGE" value="Logging" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -580,6 +592,18 @@
           <caret line="14" column="83" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/StatusCodeValidation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
           </folding>
         </state>
       </provider>
