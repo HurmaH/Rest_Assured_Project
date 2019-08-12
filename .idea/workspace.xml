@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0e3be36-eb6b-49b6-be41-0c78ab5e9123" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/app/tests/ParamState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/app/tests/ParamState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -13,11 +13,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -30,7 +29,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/RestDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="289">
               <caret line="17" column="71" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -42,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/HeadersTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="14" column="72" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="14" selection-end-column="72" />
+            <state relative-caret-position="238">
+              <caret line="14" column="72" selection-start-line="9" selection-start-column="3" selection-end-line="14" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,7 +65,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/BaseURI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
+            <state relative-caret-position="561">
               <caret line="33" column="31" selection-start-line="32" selection-start-column="7" selection-end-line="33" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -78,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/BaseURI2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
+            <state relative-caret-position="323">
               <caret line="19" column="25" selection-start-line="10" selection-start-column="4" selection-end-line="20" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -87,13 +86,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/ParamState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+            <state relative-caret-position="714">
+              <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/QueryParam.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,6 +135,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/app/tests/warmUp.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/app/tests/Parameters.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/app/tests/ParamState.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/app/tests/QuesryParam.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/app/tests/QueryParam.java" />
       </list>
     </option>
   </component>
@@ -133,8 +148,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1384" />
-    <option name="y" value="221" />
+    <option name="x" value="-1374" />
+    <option name="y" value="123" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -144,8 +159,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,6 +215,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ParamState.getCharacterById">
+  <component name="RunManager" selected="JUnit.QueryParam.amountAndRegionTest">
     <configuration name="ParamState.getCharacterById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Rest_Assured_Project" />
       <extension name="coverage">
@@ -254,7 +269,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParamState.getCityByNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QueryParam.amountAndRegionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Rest_Assured_Project" />
       <extension name="coverage">
         <pattern>
@@ -263,14 +278,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.app.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.app.tests.ParamState" />
-      <option name="METHOD_NAME" value="getCityByNameTest" />
+      <option name="MAIN_CLASS_NAME" value="com.app.tests.QueryParam" />
+      <option name="METHOD_NAME" value="amountAndRegionTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="warmUp.continentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QueryParam.testAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Rest_Assured_Project" />
       <extension name="coverage">
         <pattern>
@@ -279,14 +294,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.app.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.app.tests.warmUp" />
-      <option name="METHOD_NAME" value="continentTest" />
+      <option name="MAIN_CLASS_NAME" value="com.app.tests.QueryParam" />
+      <option name="METHOD_NAME" value="testAmount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="warmUp.episodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="QueryParam.testRegion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Rest_Assured_Project" />
       <extension name="coverage">
         <pattern>
@@ -295,8 +310,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.app.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.app.tests.warmUp" />
-      <option name="METHOD_NAME" value="episodeTest" />
+      <option name="MAIN_CLASS_NAME" value="com.app.tests.QueryParam" />
+      <option name="METHOD_NAME" value="testRegion" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -304,11 +319,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QueryParam.amountAndRegionTest" />
+        <item itemvalue="JUnit.QueryParam.testRegion" />
+        <item itemvalue="JUnit.QueryParam.testAmount" />
         <item itemvalue="JUnit.ParamState.getCharacterById" />
         <item itemvalue="JUnit.ParamState.getCharacterByName" />
-        <item itemvalue="JUnit.ParamState.getCityByNameTest" />
-        <item itemvalue="JUnit.warmUp.episodeTest" />
-        <item itemvalue="JUnit.warmUp.continentTest" />
       </list>
     </recent_temporary>
   </component>
@@ -341,52 +356,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ParamState_getCityByNameTest - 2019.08.11 at 04h 10m 46s.xml">
-      <configuration name="ParamState.getCityByNameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParamState_getCharacterById - 2019.08.11 at 04h 13m 52s.xml">
-      <configuration name="ParamState.getCharacterById" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParamState_getCharacterByName - 2019.08.11 at 04h 14m 42s.xml">
-      <configuration name="ParamState.getCharacterByName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParamState_getCharacterByName - 2019.08.11 at 04h 15m 15s.xml">
-      <configuration name="ParamState.getCharacterByName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParamState_getCityByNameTest - 2019.08.11 at 04h 19m 58s.xml">
-      <configuration name="ParamState.getCityByNameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParamState_getCityByNameTest - 2019.08.11 at 04h 20m 39s.xml">
-      <configuration name="ParamState.getCityByNameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParamState_getCharacterByName - 2019.08.11 at 04h 21m 53s.xml">
-      <configuration name="ParamState.getCharacterByName" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ParamState_getCharacterByName - 2019.08.11 at 04h 24m 33s.xml">
-      <configuration name="ParamState.getCharacterByName" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ParamState_getCharacterByName - 2019.08.11 at 04h 24m 55s.xml">
       <configuration name="ParamState.getCharacterByName" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ParamState_getCharacterByName - 2019.08.11 at 04h 26m 10s.xml">
       <configuration name="ParamState.getCharacterByName" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ParamState_getCharacterByName - 2019.08.11 at 04h 28m 22s.xml">
+      <configuration name="ParamState.getCharacterByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParamState_getCharacterByName - 2019.08.11 at 04h 29m 03s.xml">
+      <configuration name="ParamState.getCharacterByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParamState_getCharacterByName - 2019.08.11 at 04h 31m 02s.xml">
+      <configuration name="ParamState.getCharacterByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ParamState_getCharacterById - 2019.08.11 at 04h 31m 46s.xml">
+      <configuration name="ParamState.getCharacterById" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueryParam_testAmount - 2019.08.11 at 22h 36m 48s.xml">
+      <configuration name="QueryParam.testAmount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueryParam_testRegion - 2019.08.11 at 22h 40m 12s.xml">
+      <configuration name="QueryParam.testRegion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueryParam_testRegion - 2019.08.11 at 22h 40m 54s.xml">
+      <configuration name="QueryParam.testRegion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueryParam_amountAndRegionTest - 2019.08.11 at 22h 43m 34s.xml">
+      <configuration name="QueryParam.amountAndRegionTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="123" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3289689" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45171848" />
@@ -394,14 +404,18 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -417,10 +431,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/BaseURI.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/RestDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="33" column="31" selection-start-line="32" selection-start-column="7" selection-end-line="33" selection-end-column="31" />
+        <state relative-caret-position="289">
+          <caret line="17" column="71" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/HeadersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="72" selection-start-line="9" selection-start-column="3" selection-end-line="14" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -437,20 +461,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/RestDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/BaseURI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="17" column="71" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/HeadersTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="14" column="72" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="14" selection-end-column="72" />
+        <state relative-caret-position="561">
+          <caret line="33" column="31" selection-start-line="32" selection-start-column="7" selection-end-line="33" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -459,7 +473,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/BaseURI2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
+        <state relative-caret-position="323">
           <caret line="19" column="25" selection-start-line="10" selection-start-column="4" selection-end-line="20" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -469,10 +483,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/ParamState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        <state relative-caret-position="714">
+          <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/QueryParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="39" column="30" lean-forward="true" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
           </folding>
         </state>
       </provider>
