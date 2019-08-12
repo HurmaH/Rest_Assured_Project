@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0e3be36-eb6b-49b6-be41-0c78ab5e9123" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/app/tests/HeaderValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/app/tests/VerifyResponseBody.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,34 +19,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/StatusLine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="87" selection-start-line="14" selection-start-column="87" selection-end-line="14" selection-end-column="87" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/BaseURI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="31" selection-start-line="32" selection-start-column="7" selection-end-line="33" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/BaseURI2.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="19" column="25" selection-start-line="10" selection-start-column="4" selection-end-line="20" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/HeadersTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,15 +120,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/HeaderValidation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+            <state relative-caret-position="169">
+              <caret line="12" column="10" selection-start-line="10" selection-start-column="4" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#109#110#0" expanded="true" />
                 <element signature="e#172#173#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/VerifyResponseBody.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#110#111#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -176,6 +178,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/app/tests/TestAssuredLogging.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/app/tests/StatusCodeValidation.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/app/tests/HeaderValidation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/app/tests/VerifyResponseBody.java" />
       </list>
     </option>
   </component>
@@ -275,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HeaderValidation.headerTest2">
+  <component name="RunManager" selected="JUnit.VerifyResponseBody.verifyNumberOfResults">
     <configuration name="HeaderValidation.headerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Rest_Assured_Project" />
       <extension name="coverage">
@@ -324,7 +327,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatusCodeValidation.testOK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VerifyResponseBody.bodyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Rest_Assured_Project" />
       <extension name="coverage">
         <pattern>
@@ -333,14 +336,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.app.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.app.tests.StatusCodeValidation" />
-      <option name="METHOD_NAME" value="testOK" />
+      <option name="MAIN_CLASS_NAME" value="com.app.tests.VerifyResponseBody" />
+      <option name="METHOD_NAME" value="bodyTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAssuredLogging.logResponseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VerifyResponseBody.verifyNumberOfResults" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Rest_Assured_Project" />
       <extension name="coverage">
         <pattern>
@@ -349,8 +352,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.app.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.app.tests.TestAssuredLogging" />
-      <option name="METHOD_NAME" value="logResponseTest" />
+      <option name="MAIN_CLASS_NAME" value="com.app.tests.VerifyResponseBody" />
+      <option name="METHOD_NAME" value="verifyNumberOfResults" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -358,11 +361,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VerifyResponseBody.verifyNumberOfResults" />
+        <item itemvalue="JUnit.VerifyResponseBody.bodyTest" />
         <item itemvalue="JUnit.HeaderValidation.headerTest2" />
         <item itemvalue="JUnit.HeaderValidation.headerTest" />
         <item itemvalue="JUnit.StatusCodeValidation.notFoundTest" />
-        <item itemvalue="JUnit.StatusCodeValidation.testOK" />
-        <item itemvalue="JUnit.TestAssuredLogging.logResponseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -416,12 +419,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestAssuredLogging_loggingTest - 2019.08.12 at 11h 59m 02s.xml">
-      <configuration name="TestAssuredLogging.loggingTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestAssuredLogging_logResponseTest - 2019.08.12 at 12h 01m 57s.xml">
-      <configuration name="TestAssuredLogging.logResponseTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestAssuredLogging_logResponseTest - 2019.08.12 at 12h 03m 34s.xml">
       <configuration name="TestAssuredLogging.logResponseTest" configurationId="JUnit" />
     </history-entry>
@@ -446,6 +443,12 @@
     <history-entry file="HeaderValidation_headerTest - 2019.08.12 at 12h 37m 01s.xml">
       <configuration name="HeaderValidation.headerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HeaderValidation_headerTest2 - 2019.08.12 at 12h 41m 04s.xml">
+      <configuration name="HeaderValidation.headerTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VerifyResponseBody_bodyTest - 2019.08.12 at 13h 31m 29s.xml">
+      <configuration name="VerifyResponseBody.bodyTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="123" width="1382" height="744" extended-state="6" />
@@ -460,7 +463,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45335516" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29787233" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -499,16 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="71" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/HeadersTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="72" selection-start-line="9" selection-start-column="3" selection-end-line="14" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -599,6 +592,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/HeadersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/StatusCodeValidation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -613,12 +616,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/HeaderValidation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        <state relative-caret-position="169">
+          <caret line="12" column="10" selection-start-line="10" selection-start-column="4" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#109#110#0" expanded="true" />
             <element signature="e#172#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/VerifyResponseBody.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
           </folding>
         </state>
       </provider>
