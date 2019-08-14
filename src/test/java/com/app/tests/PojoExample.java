@@ -68,4 +68,24 @@ public class PojoExample {
         Person myPerson = objectMapper.readValue(myJsonString, Person.class);
         System.out.println("Printing the new object:" + myPerson);
     }
+
+    @Test
+    public void jacksonvsgson() throws JsonProcessingException {
+
+        // TODO serialization example
+        Person person = new Person();
+
+        person.setName("Daniel");
+        person.setSurname("Jackson");
+
+        Gson gson = new Gson();
+        String j1 = gson.toJson(person);
+
+        ObjectMapper objectMapper = new ObjectMapper();
+        String j2 = objectMapper.writeValueAsString(person);
+
+        System.out.println(j1);
+        System.out.println(j2);
+
+    }
 }
