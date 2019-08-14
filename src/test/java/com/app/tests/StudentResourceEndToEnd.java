@@ -55,20 +55,21 @@ public class StudentResourceEndToEnd {
                 then().
                 log().all().
                 assertThat().statusCode(201).
-                body( is(expectedMessage));
+                body( is(expectedMessage));//HamcrestMatchers
 
         // GET THE NEW USER FROM DB USING JDBC
         Map<String, Object> dbUser = getDBUser(email);
         log.info(dbUser);
+
         // VERIFY THE DB DATA HAS THE CORRECT INFO
+        //Comparing expected with actual
         assertThat(dbUser.get("firstname"), is(firstName));
         assertThat(dbUser.get("lastname"), is(lastName));
         assertThat(dbUser.get("email"), is(email));
-        // verify that id is not empty
+       // verify that id is not empty
         assertThat(dbUser.get("id"), is(notNullValue()));
 
         // GET THE USER INFO FROM DB USING API
-
         String id = dbUser.get("id").toString();
 
         given().
@@ -76,7 +77,7 @@ public class StudentResourceEndToEnd {
                 header("Authorization", token).
                 pathParam("id", id).
                 when().
-                get("/api/students/{id}").
+                get("/api/students/{id}").//{id} will be replaced by actual id
                 then().
                 log().all().
                 assertThat().statusCode(200).
@@ -84,8 +85,9 @@ public class StudentResourceEndToEnd {
                 body("lastName", is(lastName)).
                 body("role", is(role));
 
-        // VERIFY USING UI
 
+
+        // VERIFY USING UI
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.get("https://cybertek-reservation-qa.herokuapp.com/sign-in");
