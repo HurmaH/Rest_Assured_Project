@@ -3,30 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e0e3be36-eb6b-49b6-be41-0c78ab5e9123" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/app/tests/StudentResourceEndToEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/app/tests/StudentResourceEndToEnd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/app/tests/AccessToken.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/app/tests/Authentication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/app/tests/BaseURI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/app/tests/BaseURI2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/app/tests/GITHub.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/app/tests/HamcrestMatchers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/app/tests/HeaderValidation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/app/tests/HeadersTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/app/tests/JasonPath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/app/tests/Logging.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/app/tests/ParamState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/app/tests/PostRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/app/tests/QueryParam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/app/tests/RelaxedHttpsValidation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/app/tests/RestDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/app/tests/StatusCodeValidation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/app/tests/StatusLine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/app/tests/TestAssuredLogging.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/app/tests/VerifyResponseBody.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/app/utlities/BookITRestUtility.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/app/utlities/DatabaseUtility.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/app/utlities/Etsy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/app/utlities/Main.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -120,7 +96,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/StudentResourceEndToEnd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
+            <state relative-caret-position="-253">
               <caret line="79" column="78" selection-start-line="79" selection-start-column="78" selection-end-line="79" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -278,16 +254,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Rest_Assured_Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Rest_Assured_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Rest_Assured_Project" type="b2602c69:ProjectViewProjectNode" />
@@ -560,7 +526,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="123" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2344932" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -576,7 +541,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
@@ -868,7 +833,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/StudentResourceEndToEnd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
+        <state relative-caret-position="-253">
           <caret line="79" column="78" selection-start-line="79" selection-start-column="78" selection-end-line="79" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
