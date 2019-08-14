@@ -28,7 +28,7 @@ public class HamcrestMatchers {
         assertThat("Hurmik", equalToIgnoringCase("hurmIK") );
 
         //compare ignoring space
-        assertThat("Hurmik", equalToCompressingWhiteSpace(" Hurmik "));//not Hurm ik
+        assertThat("Hurmik", equalToIgnoringWhiteSpace(" Hurmik "));//not Hurm ik
 
         //comparing numbers
         assertThat(10, greaterThan(9));
