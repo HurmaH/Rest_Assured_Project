@@ -1,0 +1,222 @@
+This is before method
+This is test method
+This is after method
+This is before method
+this is the test method: INFO
+this is the test method: WARN
+This is after method
+This is before method
+this is the test method: INFO
+this is the test method: WARN
+This is after method
+This is before method
+this is the test method: TRACE
+this is the test method: INFO
+this is the test method: WARN
+Get connection for route {s}->https://uinames.com:443
+Connecting to uinames.com:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/ HTTP/1.1
+ >> "GET /api/ HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: uinames.com[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_181)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/ HTTP/1.1
+>> Accept: */*
+>> Host: uinames.com
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_181)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Date: Wed, 14 Aug 2019 14:05:31 GMT[\r][\n]"
+ << "Content-Type: application/json; charset=utf-8[\r][\n]"
+ << "Transfer-Encoding: chunked[\r][\n]"
+ << "Connection: keep-alive[\r][\n]"
+ << "Set-Cookie: __cfduid=d0f86065aa52ccad61a8862045b9ec4d11565791531; expires=Thu, 13-Aug-20 14:05:31 GMT; path=/; domain=.uinames.com; HttpOnly[\r][\n]"
+ << "X-Powered-By: PHP/5.4.45[\r][\n]"
+ << "Access-Control-Allow-Origin: *[\r][\n]"
+ << "Access-Control-Allow-Methods: GET[\r][\n]"
+ << "Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"[\r][\n]"
+ << "Server: cloudflare[\r][\n]"
+ << "CF-RAY: 50637bed8bbc5568-ORD[\r][\n]"
+ << "Content-Encoding: gzip[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Date: Wed, 14 Aug 2019 14:05:31 GMT
+<< Content-Type: application/json; charset=utf-8
+<< Transfer-Encoding: chunked
+<< Connection: keep-alive
+<< Set-Cookie: __cfduid=d0f86065aa52ccad61a8862045b9ec4d11565791531; expires=Thu, 13-Aug-20 14:05:31 GMT; path=/; domain=.uinames.com; HttpOnly
+<< X-Powered-By: PHP/5.4.45
+<< Access-Control-Allow-Origin: *
+<< Access-Control-Allow-Methods: GET
+<< Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+<< Server: cloudflare
+<< CF-RAY: 50637bed8bbc5568-ORD
+<< Content-Encoding: gzip
+Connection can be kept alive indefinitely
+Parsing response as: application/json; charset=utf-8
+ << "57[\r][\n]"
+ << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]<[0xc8][0xb1][0x9][0xc0]0[0xc]E[0xc1]]^[0xad][0x9]\f[0x89][0xd4][0x6][0x84][0xc1]v@[0x8e][0xaa][0x90][0xdd][0xd3][0xe5][0xca]{Xu[0x8a][0xc2]Y[0xa3]a[0xec][0x8c]?[0xf2]Vl[0xc][0xd7]j[\n]"
+ << "[\n]"
+ << "[0xb3][0xe]a[0x84][0xbc]_[0x8b][0xc2][0xa1][0xe1]='[0xef][0x7][0x0][0x0][0xff][0xff][0x3][0x0][0x1a][0x6]5[0xab]F[0x0][0x0][0x0]"
+ << "[\r][\n]"
+ << "0[\r][\n]"
+ << "[\r][\n]"
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+This is after method
+starting the method
+Get connection for route {s}->https://cybertek-reservation-api-qa.herokuapp.com:443
+Connecting to cybertek-reservation-api-qa.herokuapp.com:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /sign?email=teacherva5%40gmail.com&password=maxpayne HTTP/1.1
+ >> "GET /sign?email=teacherva5%40gmail.com&password=maxpayne HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: cybertek-reservation-api-qa.herokuapp.com[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_181)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /sign?email=teacherva5%40gmail.com&password=maxpayne HTTP/1.1
+>> Accept: */*
+>> Host: cybertek-reservation-api-qa.herokuapp.com
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_181)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Connection: close[\r][\n]"
+ << "Date: Wed, 14 Aug 2019 14:29:50 GMT[\r][\n]"
+ << "Content-Type: application/json[\r][\n]"
+ << "Server: Jetty(9.4.8.v20171121)[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Connection: close
+<< Date: Wed, 14 Aug 2019 14:29:50 GMT
+<< Content-Type: application/json
+<< Server: Jetty(9.4.8.v20171121)
+<< Via: 1.1 vegur
+Parsing response as: application/json
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "{"accessToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIyMDY0IiwiYXVkIjoidGVhY2hlciJ9.japWZkmQ3ExAJA6HxXEMSm92h5ZfYARx1Ci8sSiLgzM","refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIyMDY0IiwiYXVkIjoidGVhY2hlciJ9.japWZkmQ3ExAJA6HxXEMSm92h5ZfYARx1Ci8sSiLgzM"}"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7c1e2a2d
+Connection 0.0.0.0:52516<->34.230.212.94:443 shut down
+Get connection for route {s}->https://cybertek-reservation-api-qa.herokuapp.com:443
+Connecting to cybertek-reservation-api-qa.herokuapp.com:443
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/clusters HTTP/1.1
+ >> "GET /api/clusters HTTP/1.1[\r][\n]"
+ >> "Authorization: eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIyMDY0IiwiYXVkIjoidGVhY2hlciJ9.japWZkmQ3ExAJA6HxXEMSm92h5ZfYARx1Ci8sSiLgzM[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: cybertek-reservation-api-qa.herokuapp.com[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_181)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/clusters HTTP/1.1
+>> Authorization: eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIyMDY0IiwiYXVkIjoidGVhY2hlciJ9.japWZkmQ3ExAJA6HxXEMSm92h5ZfYARx1Ci8sSiLgzM
+>> Accept: */*
+>> Host: cybertek-reservation-api-qa.herokuapp.com
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_181)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Connection: close[\r][\n]"
+ << "Date: Wed, 14 Aug 2019 14:29:53 GMT[\r][\n]"
+ << "Content-Type: application/json[\r][\n]"
+ << "Server: Jetty(9.4.8.v20171121)[\r][\n]"
+ << "Via: 1.1 vegur[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Connection: close
+<< Date: Wed, 14 Aug 2019 14:29:53 GMT
+<< Content-Type: application/json
+<< Server: Jetty(9.4.8.v20171121)
+<< Via: 1.1 vegur
+Parsing response as: application/json
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "[{"id":3,"name":"light-side","rooms":[{"id":112,"name":"harvard","description":"veritas","capacity":6,"withTV":true,"withWhiteBoard":false},{"id":113,"name":"yale","description":"lux et veritas","capacity":6,"withTV":true,"withWhiteBoard":false},{"id":114,"name":"princeton","description":"dei sub numine viget","capacity":4,"withTV":true,"withWhiteBoard":false},{"id":115,"name":"stanford","description":"die luft der freiheit weht","capacity":6,"withTV":false,"withWhiteBoard":true},{"id":116,"name":"duke","description":"eruditio et religio","capacity":4,"withTV":true,"withWhiteBoard":false},{"id":117,"name":"berkeley","description":"fiat lux","capacity":4,"withTV":true,"withWhiteBoard":false},{"id":111,"name":"ping pong","description":"mens et manus","capacity":6,"withTV":true,"withWhiteBoard":false}]}, {"id":4,"name":"dark-side","rooms":[{"id":121,"name":"kilimanjaro","description":"it isn\u0027t the mountains ahead to climb that wear you out, it\u0027s the pebble in your shoe","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":122,"name":"half dome","description":"faith moves mountains","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":123,"name":"denali","description":"you can\u0027t move mountains by whispering at them","capacity":4,"withTV":true,"withWhiteBoard":true},{"id":124,"name":"meru","description":"every mountain top is within reach if you just keep climbing","capacity":4,"withTV":true,"withWhiteBoard":true}]}, {"id":5,"name":"il","rooms":[{"id":211,"name":"google","description":"don\u0027t be evil","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":212,"name":"apple","description":"think different","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":213,"name":"microsoft","description":"be what\u0027s next","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":214,"name":"bay_area","description":"make future","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":215,"name":"amazon","description":"work hard. have fun. make history","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":216,"name":"tesla","description":"just do it","capacity":6,"withTV":true,"withWhiteBoard":true},{"id":217,"name":"facebook","description":"move fast and break things","capacity":6,"withTV":true,"withWhiteBoard":true}]}]"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@759fad4
+Connection 0.0.0.0:52517<->34.230.212.94:443 shut down
+3
+3
+[3, 4, 5]
+
+size: 3
+[[harvard, yale, princeton, stanford, duke, berkeley, ping pong], [kilimanjaro, half dome, denali, meru], [google, apple, microsoft, bay_area, amazon, tesla, facebook]]
+{rooms=[{withTV=true, name=harvard, description=veritas, id=112, withWhiteBoard=false, capacity=6}, {withTV=true, name=yale, description=lux et veritas, id=113, withWhiteBoard=false, capacity=6}, {withTV=true, name=princeton, description=dei sub numine viget, id=114, withWhiteBoard=false, capacity=4}, {withTV=false, name=stanford, description=die luft der freiheit weht, id=115, withWhiteBoard=true, capacity=6}, {withTV=true, name=duke, description=eruditio et religio, id=116, withWhiteBoard=false, capacity=4}, {withTV=true, name=berkeley, description=fiat lux, id=117, withWhiteBoard=false, capacity=4}, {withTV=true, name=ping pong, description=mens et manus, id=111, withWhiteBoard=false, capacity=6}], name=light-side, id=3}
+rooms
+[{withTV=true, name=harvard, description=veritas, id=112, withWhiteBoard=false, capacity=6}, {withTV=true, name=yale, description=lux et veritas, id=113, withWhiteBoard=false, capacity=6}, {withTV=true, name=princeton, description=dei sub numine viget, id=114, withWhiteBoard=false, capacity=4}, {withTV=false, name=stanford, description=die luft der freiheit weht, id=115, withWhiteBoard=true, capacity=6}, {withTV=true, name=duke, description=eruditio et religio, id=116, withWhiteBoard=false, capacity=4}, {withTV=true, name=berkeley, description=fiat lux, id=117, withWhiteBoard=false, capacity=4}, {withTV=true, name=ping pong, description=mens et manus, id=111, withWhiteBoard=false, capacity=6}]
+name
+light-side
+id
+3
+{rooms=[{withTV=true, name=harvard, description=veritas, id=112, withWhiteBoard=false, capacity=6}, {withTV=true, name=yale, description=lux et veritas, id=113, withWhiteBoard=false, capacity=6}, {withTV=true, name=princeton, description=dei sub numine viget, id=114, withWhiteBoard=false, capacity=4}, {withTV=false, name=stanford, description=die luft der freiheit weht, id=115, withWhiteBoard=true, capacity=6}, {withTV=true, name=duke, description=eruditio et religio, id=116, withWhiteBoard=false, capacity=4}, {withTV=true, name=berkeley, description=fiat lux, id=117, withWhiteBoard=false, capacity=4}, {withTV=true, name=ping pong, description=mens et manus, id=111, withWhiteBoard=false, capacity=6}], name=light-side, id=3}
+rooms
+[{withTV=true, name=harvard, description=veritas, id=112, withWhiteBoard=false, capacity=6}, {withTV=true, name=yale, description=lux et veritas, id=113, withWhiteBoard=false, capacity=6}, {withTV=true, name=princeton, description=dei sub numine viget, id=114, withWhiteBoard=false, capacity=4}, {withTV=false, name=stanford, description=die luft der freiheit weht, id=115, withWhiteBoard=true, capacity=6}, {withTV=true, name=duke, description=eruditio et religio, id=116, withWhiteBoard=false, capacity=4}, {withTV=true, name=berkeley, description=fiat lux, id=117, withWhiteBoard=false, capacity=4}, {withTV=true, name=ping pong, description=mens et manus, id=111, withWhiteBoard=false, capacity=6}]
+name
+light-side
+id
+3
+true
+harvard
+veritas
+112
+false
+6
+true
+harvard
+veritas
+112
+false
+6
+starting the method
+3
+3
+[3, 4, 5]
+harvard
+size: 3
+[[harvard, yale, princeton, stanford, duke, berkeley, ping pong], [kilimanjaro, half dome, denali, meru], [google, apple, microsoft, bay_area, amazon, tesla, facebook]]
+{rooms=[{withTV=true, name=harvard, description=veritas, id=112, withWhiteBoard=false, capacity=6}, {withTV=true, name=yale, description=lux et veritas, id=113, withWhiteBoard=false, capacity=6}, {withTV=true, name=princeton, description=dei sub numine viget, id=114, withWhiteBoard=false, capacity=4}, {withTV=false, name=stanford, description=die luft der freiheit weht, id=115, withWhiteBoard=true, capacity=6}, {withTV=true, name=duke, description=eruditio et religio, id=116, withWhiteBoard=false, capacity=4}, {withTV=true, name=berkeley, description=fiat lux, id=117, withWhiteBoard=false, capacity=4}, {withTV=true, name=ping pong, description=mens et manus, id=111, withWhiteBoard=false, capacity=6}], name=light-side, id=3}
+rooms
+[{withTV=true, name=harvard, description=veritas, id=112, withWhiteBoard=false, capacity=6}, {withTV=true, name=yale, description=lux et veritas, id=113, withWhiteBoard=false, capacity=6}, {withTV=true, name=princeton, description=dei sub numine viget, id=114, withWhiteBoard=false, capacity=4}, {withTV=false, name=stanford, description=die luft der freiheit weht, id=115, withWhiteBoard=true, capacity=6}, {withTV=true, name=duke, description=eruditio et religio, id=116, withWhiteBoard=false, capacity=4}, {withTV=true, name=berkeley, description=fiat lux, id=117, withWhiteBoard=false, capacity=4}, {withTV=true, name=ping pong, description=mens et manus, id=111, withWhiteBoard=false, capacity=6}]
+name
+light-side
+id
+3
+{rooms=[{withTV=true, name=harvard, description=veritas, id=112, withWhiteBoard=false, capacity=6}, {withTV=true, name=yale, description=lux et veritas, id=113, withWhiteBoard=false, capacity=6}, {withTV=true, name=princeton, description=dei sub numine viget, id=114, withWhiteBoard=false, capacity=4}, {withTV=false, name=stanford, description=die luft der freiheit weht, id=115, withWhiteBoard=true, capacity=6}, {withTV=true, name=duke, description=eruditio et religio, id=116, withWhiteBoard=false, capacity=4}, {withTV=true, name=berkeley, description=fiat lux, id=117, withWhiteBoard=false, capacity=4}, {withTV=true, name=ping pong, description=mens et manus, id=111, withWhiteBoard=false, capacity=6}], name=light-side, id=3}
+rooms
+[{withTV=true, name=harvard, description=veritas, id=112, withWhiteBoard=false, capacity=6}, {withTV=true, name=yale, description=lux et veritas, id=113, withWhiteBoard=false, capacity=6}, {withTV=true, name=princeton, description=dei sub numine viget, id=114, withWhiteBoard=false, capacity=4}, {withTV=false, name=stanford, description=die luft der freiheit weht, id=115, withWhiteBoard=true, capacity=6}, {withTV=true, name=duke, description=eruditio et religio, id=116, withWhiteBoard=false, capacity=4}, {withTV=true, name=berkeley, description=fiat lux, id=117, withWhiteBoard=false, capacity=4}, {withTV=true, name=ping pong, description=mens et manus, id=111, withWhiteBoard=false, capacity=6}]
+name
+light-side
+id
+3
+true
+harvard
+veritas
+112
+false
+6
+true
+harvard
+veritas
+112
+false
+6
