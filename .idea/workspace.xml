@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0e3be36-eb6b-49b6-be41-0c78ab5e9123" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/app/tests/RelaxedHttpsValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/app/tests/AccessToken.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,37 +20,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/HeadersTest.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/ParamState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/QueryParam.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -126,13 +100,39 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/RelaxedHttpsValidation.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/Authentication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="28" column="20" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/AccessToken.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28">
+              <caret line="26" column="131" selection-start-line="26" selection-start-column="131" selection-end-line="26" selection-end-column="131" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/app/tests/RestDemo.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/app/tests/HeadersTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/app/tests/StatusLine.java" />
@@ -170,6 +169,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/app/tests/HeaderValidation.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/app/tests/VerifyResponseBody.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/app/tests/RelaxedHttpsValidation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/app/tests/Authentication.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/app/tests/AccessToken.java" />
       </list>
     </option>
   </component>
@@ -269,8 +271,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.VerifyResponseBody.verifyNumberOfResults">
-    <configuration name="HeaderValidation.headerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AccessToken.getToken">
+    <configuration name="AccessToken.getToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Rest_Assured_Project" />
       <extension name="coverage">
         <pattern>
@@ -279,14 +281,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.app.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.app.tests.HeaderValidation" />
-      <option name="METHOD_NAME" value="headerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.app.tests.AccessToken" />
+      <option name="METHOD_NAME" value="getToken" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeaderValidation.headerTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Authentication.basicAuthentication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Rest_Assured_Project" />
       <extension name="coverage">
         <pattern>
@@ -295,14 +297,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.app.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.app.tests.HeaderValidation" />
-      <option name="METHOD_NAME" value="headerTest2" />
+      <option name="MAIN_CLASS_NAME" value="com.app.tests.Authentication" />
+      <option name="METHOD_NAME" value="basicAuthentication" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StatusCodeValidation.notFoundTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Authentication.basicAuthentication401Validattion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Rest_Assured_Project" />
       <extension name="coverage">
         <pattern>
@@ -311,14 +313,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.app.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.app.tests.StatusCodeValidation" />
-      <option name="METHOD_NAME" value="notFoundTest" />
+      <option name="MAIN_CLASS_NAME" value="com.app.tests.Authentication" />
+      <option name="METHOD_NAME" value="basicAuthentication401Validattion" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyResponseBody.bodyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Authentication.usingApiKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Rest_Assured_Project" />
       <extension name="coverage">
         <pattern>
@@ -327,14 +329,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.app.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.app.tests.VerifyResponseBody" />
-      <option name="METHOD_NAME" value="bodyTest" />
+      <option name="MAIN_CLASS_NAME" value="com.app.tests.Authentication" />
+      <option name="METHOD_NAME" value="usingApiKey" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyResponseBody.verifyNumberOfResults" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Authentication.xmlResponseExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Rest_Assured_Project" />
       <extension name="coverage">
         <pattern>
@@ -343,8 +345,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.app.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.app.tests.VerifyResponseBody" />
-      <option name="METHOD_NAME" value="verifyNumberOfResults" />
+      <option name="MAIN_CLASS_NAME" value="com.app.tests.Authentication" />
+      <option name="METHOD_NAME" value="xmlResponseExample" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -352,11 +354,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.VerifyResponseBody.verifyNumberOfResults" />
-        <item itemvalue="JUnit.VerifyResponseBody.bodyTest" />
-        <item itemvalue="JUnit.HeaderValidation.headerTest2" />
-        <item itemvalue="JUnit.HeaderValidation.headerTest" />
-        <item itemvalue="JUnit.StatusCodeValidation.notFoundTest" />
+        <item itemvalue="JUnit.AccessToken.getToken" />
+        <item itemvalue="JUnit.Authentication.xmlResponseExample" />
+        <item itemvalue="JUnit.Authentication.basicAuthentication" />
+        <item itemvalue="JUnit.Authentication.basicAuthentication401Validattion" />
+        <item itemvalue="JUnit.Authentication.usingApiKey" />
       </list>
     </recent_temporary>
   </component>
@@ -413,39 +415,46 @@
       <option name="project" value="LOCAL" />
       <updated>1565635432121</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="basicAuthentication">
+      <created>1565728034815</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1565728034815</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StatusCodeValidation_testOK - 2019.08.12 at 12h 08m 51s.xml">
-      <configuration name="StatusCodeValidation.testOK" configurationId="JUnit" />
+    <history-entry file="Authentication_usingApiKey - 2019.08.13 at 11h 49m 41s.xml">
+      <configuration name="Authentication.usingApiKey" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StatusCodeValidation_notFoundTest - 2019.08.12 at 12h 17m 41s.xml">
-      <configuration name="StatusCodeValidation.notFoundTest" configurationId="JUnit" />
+    <history-entry file="Authentication_basicAuthentication401Validattion - 2019.08.13 at 12h 16m 44s.xml">
+      <configuration name="Authentication.basicAuthentication401Validattion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StatusCodeValidation_notFoundTest - 2019.08.12 at 12h 18m 02s.xml">
-      <configuration name="StatusCodeValidation.notFoundTest" configurationId="JUnit" />
+    <history-entry file="Authentication_basicAuthentication401Validattion - 2019.08.13 at 12h 17m 06s.xml">
+      <configuration name="Authentication.basicAuthentication401Validattion" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StatusCodeValidation_testOK - 2019.08.12 at 12h 18m 24s.xml">
-      <configuration name="StatusCodeValidation.testOK" configurationId="JUnit" />
+    <history-entry file="Authentication_basicAuthentication - 2019.08.13 at 12h 39m 32s.xml">
+      <configuration name="Authentication.basicAuthentication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StatusCodeValidation_notFoundTest - 2019.08.12 at 12h 19m 57s.xml">
-      <configuration name="StatusCodeValidation.notFoundTest" configurationId="JUnit" />
+    <history-entry file="Authentication_basicAuthentication - 2019.08.13 at 12h 39m 57s.xml">
+      <configuration name="Authentication.basicAuthentication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HeaderValidation_headerTest - 2019.08.12 at 12h 36m 35s.xml">
-      <configuration name="HeaderValidation.headerTest" configurationId="JUnit" />
+    <history-entry file="Authentication_basicAuthentication - 2019.08.13 at 12h 41m 27s.xml">
+      <configuration name="Authentication.basicAuthentication" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HeaderValidation_headerTest - 2019.08.12 at 12h 37m 01s.xml">
-      <configuration name="HeaderValidation.headerTest" configurationId="JUnit" />
+    <history-entry file="Authentication_xmlResponseExample - 2019.08.13 at 14h 19m 44s.xml">
+      <configuration name="Authentication.xmlResponseExample" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HeaderValidation_headerTest2 - 2019.08.12 at 12h 41m 04s.xml">
-      <configuration name="HeaderValidation.headerTest2" configurationId="JUnit" />
+    <history-entry file="AccessToken_getToken - 2019.08.13 at 16h 16m 10s.xml">
+      <configuration name="AccessToken.getToken" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VerifyResponseBody_bodyTest - 2019.08.12 at 13h 31m 29s.xml">
-      <configuration name="VerifyResponseBody.bodyTest" configurationId="JUnit" />
+    <history-entry file="AccessToken_getToken - 2019.08.13 at 16h 16m 42s.xml">
+      <configuration name="AccessToken.getToken" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="VerifyResponseBody_verifyNumberOfResults - 2019.08.12 at 13h 41m 12s.xml">
-      <configuration name="VerifyResponseBody.verifyNumberOfResults" configurationId="JUnit" />
+    <history-entry file="AccessToken_getToken - 2019.08.13 at 16h 18m 07s.xml">
+      <configuration name="AccessToken.getToken" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -461,7 +470,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29787233" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36988544" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -487,16 +496,10 @@
     <MESSAGE value="Hamcrest" />
     <MESSAGE value="Logging" />
     <MESSAGE value="Response Body Validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Response Body Validation" />
+    <MESSAGE value="basicAuthentication" />
+    <option name="LAST_COMMIT_MESSAGE" value="basicAuthentication" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/RestDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -633,6 +636,35 @@
           <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/Authentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/AccessToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="26" column="131" selection-start-line="26" selection-start-column="131" selection-end-line="26" selection-end-column="131" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
           </folding>
         </state>
       </provider>
