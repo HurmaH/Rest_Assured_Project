@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0e3be36-eb6b-49b6-be41-0c78ab5e9123" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/app/tests/ResponseToJsonExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -150,8 +149,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/ResponseToJsonExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="-17">
+              <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -352,7 +351,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PojoExample.testGson">
+  <component name="RunManager" selected="JUnit.ResponseToJsonExample.responseListOfObjects">
     <configuration name="JasonPath.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Rest_Assured_Project" />
       <extension name="coverage">
@@ -365,21 +364,6 @@
       <option name="MAIN_CLASS_NAME" value="com.app.tests.JasonPath" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Logging" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Rest_Assured_Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.app.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.app.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.app.tests.Logging" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -432,13 +416,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ResponseToJsonExample.responseListOfObjects" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Rest_Assured_Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.app.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.app.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.app.tests.ResponseToJsonExample" />
+      <option name="METHOD_NAME" value="responseListOfObjects" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ResponseToJsonExample.responseListOfObjects" />
         <item itemvalue="JUnit.PojoExample.testGson" />
         <item itemvalue="JUnit.PojoExample.testJackson" />
         <item itemvalue="JUnit.JasonPath.test" />
         <item itemvalue="JUnit.Logging.test" />
-        <item itemvalue="JUnit.Logging" />
       </list>
     </recent_temporary>
   </component>
@@ -565,7 +565,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565815186519</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Response To Jason">
+      <created>1565815776797</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1565815776797</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -647,7 +654,8 @@
     <MESSAGE value="Log4j logging" />
     <MESSAGE value="pom update" />
     <MESSAGE value="POJOs added" />
-    <option name="LAST_COMMIT_MESSAGE" value="POJOs added" />
+    <MESSAGE value="Response To Jason" />
+    <option name="LAST_COMMIT_MESSAGE" value="Response To Jason" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/RestDemo.java">
@@ -988,8 +996,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/ResponseToJsonExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="-17">
+          <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

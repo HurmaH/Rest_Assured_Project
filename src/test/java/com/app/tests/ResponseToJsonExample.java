@@ -48,7 +48,7 @@ public class ResponseToJsonExample {
                 queryParam("amount", "9").
                 when().get("https://uinames.com/api/");
 
-        List<Person> people = response.jsonPath().getList("", Person.class);
+        List<Person> people = response.jsonPath().getList("", Person.class);//path"" = top level
 
         for (Person person : people) {
             System.out.println(person);
