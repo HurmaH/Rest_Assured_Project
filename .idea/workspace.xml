@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0e3be36-eb6b-49b6-be41-0c78ab5e9123" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/app/tests/JsonPayload.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,30 +23,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="194">
               <caret line="65" column="17" selection-start-line="65" selection-start-column="17" selection-end-line="65" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/Logging.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/HamcrestMatchers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="30" column="56" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -146,11 +123,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/ResponseToJsonExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-17">
-              <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+            <state relative-caret-position="221">
+              <caret line="50" column="96" selection-start-line="50" selection-start-column="96" selection-end-line="50" selection-end-column="96" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/StatusCodeValidation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/JsonPayload.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-53">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -209,6 +210,7 @@
         <option value="$PROJECT_DIR$/src/test/java/com/app/pojos/f.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/app/tests/PojoExample.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/app/tests/ResponseToJsonExample.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/app/tests/JsonPayload.java" />
       </list>
     </option>
   </component>
@@ -231,8 +233,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1374" />
-    <option name="y" value="123" />
+    <option name="x" value="-1392" />
+    <option name="y" value="149" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -351,7 +353,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ResponseToJsonExample.responseListOfObjects">
+  <component name="RunManager" selected="JUnit.JsonPayload.payloadTest">
     <configuration name="JasonPath.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Rest_Assured_Project" />
       <extension name="coverage">
@@ -368,7 +370,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Logging.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="JsonPayload.payloadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Rest_Assured_Project" />
       <extension name="coverage">
         <pattern>
@@ -377,8 +379,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.app.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.app.tests.Logging" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="com.app.tests.JsonPayload" />
+      <option name="METHOD_NAME" value="payloadTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -434,11 +436,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JsonPayload.payloadTest" />
         <item itemvalue="JUnit.ResponseToJsonExample.responseListOfObjects" />
         <item itemvalue="JUnit.PojoExample.testGson" />
         <item itemvalue="JUnit.PojoExample.testJackson" />
         <item itemvalue="JUnit.JasonPath.test" />
-        <item itemvalue="JUnit.Logging.test" />
       </list>
     </recent_temporary>
   </component>
@@ -576,12 +578,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Logging_test - 2019.08.14 at 09h 03m 56s.xml">
-      <configuration name="Logging.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Logging_test - 2019.08.14 at 09h 05m 30s.xml">
-      <configuration name="Logging.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="JasonPath_test - 2019.08.14 at 09h 29m 52s.xml">
       <configuration name="JasonPath.test" configurationId="JUnit" />
     </history-entry>
@@ -606,12 +602,18 @@
     <history-entry file="PojoExample_testGson - 2019.08.14 at 15h 09m 17s.xml">
       <configuration name="PojoExample.testGson" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ResponseToJsonExample_responseListOfObjects - 2019.08.14 at 15h 50m 16s.xml">
+      <configuration name="ResponseToJsonExample.responseListOfObjects" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JsonPayload_payloadTest - 2019.08.15 at 09h 42m 57s.xml">
+      <configuration name="JsonPayload.payloadTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-1374" y="123" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2344932" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2344932" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -620,7 +622,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4140753" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19639935" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -732,16 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="83" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/StatusCodeValidation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="25" selection-start-line="10" selection-start-column="3" selection-end-line="16" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -996,8 +988,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/ResponseToJsonExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="39" column="39" lean-forward="true" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+        <state relative-caret-position="221">
+          <caret line="50" column="96" selection-start-line="50" selection-start-column="96" selection-end-line="50" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/StatusCodeValidation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/app/tests/JsonPayload.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-53">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
